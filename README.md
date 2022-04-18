@@ -177,3 +177,19 @@ BiTree(string expression);	//用字符串构造二叉树
 计算结果
 13
 ```
+
+# 4 运行
+- On Linux
+```shell
+make
+./main
+make clean
+```
+
+- On windows
+
+```shell
+g++ -fexec-charset=GBK -finput-charset=UTF-8 Expression.cpp BiTNode.cpp BiTree.cpp main.cpp -o main.exe
+main.exe
+del main.exe
+```
