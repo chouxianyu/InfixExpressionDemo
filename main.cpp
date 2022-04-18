@@ -58,5 +58,6 @@ int main()
 	cout << "计算结果" << endl;
 	cout << tree1.calculate() << endl << endl << endl;
 	
+	cin.get();
 	return 0;
 }
