@@ -12,8 +12,7 @@ BiTree::BiTree()
 BiTree::BiTree(string expression)
 {
 	//root置空
-	BiTree();
-
+	root = nullptr;
 	setExpression(expression);
 }
 
